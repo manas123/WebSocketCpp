@@ -1,0 +1,4 @@
+/example/Basic_Client(JS)_Server(Cpp)_Setup/Server/bin/*
+!/example/Basic_Client(JS)_Server(Cpp)_Setup/Server/bin/.keep
+/example/Basic_Client(JS)_Server(Cpp)_Setup/Server/build/*
+!/example/Basic_Client(JS)_Server(Cpp)_Setup/Server/build/.keep
