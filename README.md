@@ -60,19 +60,23 @@ the below functions are used to control private channel
 
 ### Examples
 
-	#### Basic Client(JS) Server(Cpp) Setup
+#### Basic Client(JS) Server(Cpp) Setup
 	
-	* Setup: *
-	```
-		cd <path>/Basic_Client_JS_Server_Cpp_Setup/Server/build/
-		cmake ..
-		make
-	```
-	* Run :*
-	```
-		cd <path>/Basic_Client_JS_Server_Cpp_Setup/Server/bin/
-		sudo ./websocket
-	```
+**Set-up:**
+	
+```
+cd <path>/Basic_Client_JS_Server_Cpp_Setup/Server/build/
+cmake ..
+make
+
+```
+**Run:**
+	
+```
+cd <path>/Basic_Client_JS_Server_Cpp_Setup/Server/bin/
+sudo ./websocket
+
+```
 
 ## Upcoming Features
 
