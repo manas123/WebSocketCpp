@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand navbar-center"><b>Websocket Interface</b></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a target="_blank" href="#"><b>New Client</b> <span class="glyphicon glyphicon-log-in"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid content-container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+          <div class="panel panel-primary panel-custom">
+            <div class="panel-heading text-center">
+              <b>Broadcast Channel</b>
+            </div>
+            <div class="panel-content panel-content-custom data-container">
+              <div class="conatiner-fluid">
+                <div class="row">
+                  <br>
+                  <div class="col-md-5 col-md-offset-1 label-custom">
+                    <span class=""><b>Status:</b></span>
+                  </div>
+                  <div class="col-md-5 values" id="status">
+                    <span class="">Not Yet Connected</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <br>
+                  <div class="col-md-5 col-md-offset-1 label-custom">
+                    <span class=""><b>Message Received:</b></span>
+                  </div>
+                  <div class="col-md-5 values" id="message_r">
+                    <span class="">Not Yet Connected</span>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+          <div class="panel panel-primary panel-custom">
+            <div class="panel-heading text-center">
+              <b>Private Channel</b>
+            </div>
+            <div class="panel-content panel-content-custom data-container">
+              <div class="conatiner-fluid">
+                <div class="row">
+                  <br>
+                  <div class="col-md-5 col-md-offset-1 label-custom">
+                    <span class=""><b>Status:</b></span>
+                  </div>
+                  <div class="col-md-5 values" id="statusp">
+                    <span class="">Not Yet Connected</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <br>
+                  <div class="col-md-5 col-md-offset-1 label-custom">
+                    <span class=""><b>Message Received:</b></span>
+                  </div>
+                  <div class="col-md-5 values" id="message_rp">
+                    <span class="">Not Yet Connected</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <br>
+                  <div class="col-md-5 col-md-offset-1 label-custom">
+                    <span class=""><b>Message Sent:</b></span>
+                  </div>
+                  <div class="col-md-5 values" id="message_sp">
+                    <span class="">Not Yet Connected</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/websocket.js"></script>
+  </body>
+</html>

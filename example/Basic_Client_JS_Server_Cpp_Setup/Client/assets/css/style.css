@@ -1,0 +1,62 @@
+body {
+	background-color: #292b2c;
+}
+
+.navbar-custom {
+  color: #FFFFFF;
+  background-color: #428bca;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+	color: #FFFFFF;
+  background-color: #428bca;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.panel-content-custom {
+	color: #FFFFFF;
+  background-color: #343638;
+}
+
+.panel-custom {
+	border-color: #292b2c;
+}
+
+.content-container {
+	margin-top: 20vh;
+}
+
+.data-container{
+	height: 40vh;
+}
+
+.label-custom {
+	padding: 5px;
+	background-color: #428bca;
+	color: black;
+	height: 100%;
+	text-align: right;
+}
+
+.values {
+	background-color: #292b2c;
+	color: white;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	height: 100%;
+	text-align: left;
+}
